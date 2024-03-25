@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+@font-face{
+  font-family: terminalsans;
+  src: url(ds_terminal/DS-TERM.TTF)
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: terminalsans;
+  background-color: rgb(0, 0, 0);
+  color: rgb(19, 167, 19);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  width: 100%;
+  background-color: #000000;
+  padding-top: 25px;
+  padding-left: 15px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content:flex-start;
+  font-size: 32px;
+  text-decoration: none;
+  text-shadow: darkgreen 4px 3px 3px;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar a {
+  margin-right: 50px;
+  text-decoration: none;
+  color: rgb(19, 167, 19);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar a:hover{
+  text-decoration: underline;
+}
+
+
+.image{
+  width: 500px;
+  margin: 0px;
+}
+
+.view-container{
+  margin-left: -100px;
+  width: 650px;
+  height: 500px;
+  border: solid 3px rgb(19, 167, 19);
+}
+
+.view-header{
+  padding: 15px;
+  font-size: 25px;
+  text-decoration: none;
+  color:rgb(19, 167, 19);
+}
+
+.view-title{
+  text-decoration: none;
+  color: rgb(19, 167, 19);
+}
+
+.view-title:hover{
+  text-decoration: underline;
+}
+
+.project-tabs{
+  display: flex;
+  
+}
+
+/* remove border once developemnt of element is complete */
+.project-body{ 
+  display: flex;
+  align-items: start;
+  
+  /* border: solid 3px rgb(19, 167, 19); */
+  margin: 15px;
+  height: 350px;
+  
+}
+
+.project-button{
+  display: inline-flex;
+  float: inline-end;
+  height: 35px;
+  margin: 5px;
+  font-size: 18px;
+  background-color: black;
+  color: rgb(19, 167, 19);
+  border: 2px solid rgb(19, 167, 19);
+}
+
+
+.project-button:focus,
+.project-button:hover{
+  background-color: rgb(19, 167, 19);
+  color: black;
+}
+
+.project-button:active{
+  background-color: black;
+  color:rgb(19, 167, 19) ;
+}
+
+.projectList-header{
+  font-size:20px ;
+}
+
+ul{
+  padding:5px;
+}
+
+.work-list{
+  list-style-type: none;
+  font-size:18px;
+  margin: 17px;
+}
+
+.work-list:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.work-view{
+  margin-top: -100px;
+  
 }
