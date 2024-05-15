@@ -1,7 +1,7 @@
 {
   "name": "terminal",
   "version": "0.1.0",
-  "homepage": "http://Mattprotz.github.io/terminal",
+  "homepage": "http://mattprotz.github.io/Terminal",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
