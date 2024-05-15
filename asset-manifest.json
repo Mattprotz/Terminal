@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/terminal/static/css/main.4eef1776.css",
+    "main.js": "/terminal/static/js/main.045b83f5.js",
+    "static/js/453.ecdbcd78.chunk.js": "/terminal/static/js/453.ecdbcd78.chunk.js",
+    "static/media/DS-TERM.TTF": "/terminal/static/media/DS-TERM.de4989403599dd156386.TTF",
+    "index.html": "/terminal/index.html",
+    "main.4eef1776.css.map": "/terminal/static/css/main.4eef1776.css.map",
+    "main.045b83f5.js.map": "/terminal/static/js/main.045b83f5.js.map",
+    "453.ecdbcd78.chunk.js.map": "/terminal/static/js/453.ecdbcd78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4eef1776.css",
+    "static/js/main.045b83f5.js"
+  ]
+}
