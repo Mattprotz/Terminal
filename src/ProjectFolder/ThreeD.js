@@ -1,55 +1,65 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Modal } from "react-bootstrap/Modal";
-
 import artList from "./Art";
 
 function ThreeD() {
-  const [show, setShow] = useState(false);
   const [selectedArtwork, setSelectedArtwork] = useState(null);
 
   const handleClick = (title) => {
-    setShow(false);
     const artwork = artList.find((item) => item.title === title);
     setSelectedArtwork(artwork);
   };
 
   return (
-    <div>
-      <div className="view-header">
-        Projects
-        <div className="project-tabs">
-          <Link to="/ProjectFolder/ThreeD">
-            <button className="project-button">3D</button>
-          </Link>
-          <Link to="/ProjectFolder/Code">
-            <button className="project-button">Code</button>
-          </Link>
-        </div>
-      </div>
+    <div className="container">
+      <div className="row">
+        <div className="col-md-4">
+          <div className="view-title">
+            Projects
+            <div className="project-tabs">
+              <Link to="/ProjectFolder/ThreeD">
+                <button className="project-button">3D</button>
+              </Link>
+              <Link to="/ProjectFolder/Code">
+                <button className="project-button">Code</button>
+              </Link>
+            </div>
+          </div>
 
-      <div className="project-body">
-        <ul>
-          <span className="projectList-header">3D Projects:</span>
-          {artList.map((artwork, index) => (
-            <li
-              key={index}
-              className="work-list"
-              onClick={() => handleClick(artwork.title)}
-            >
-              {artwork.title}
-            </li>
-          ))}
-        </ul>
-        {selectedArtwork &&(
-        <div className="work-view">
-          <p>{selectedArtwork.title}</p>
-          <img src={selectedArtwork.imageUrl} alt={selectedArtwork.title} style={{ maxWidth: '100%', height: 'auto' }} />
-          <p>{selectedArtwork.description}</p>
-          <p>{selectedArtwork.medium}</p>
-          <p>{selectedArtwork.year}</p>
+          <ul className="list-view">
+            <span className="projectList-header">3D Projects:</span>
+            {artList.map((artwork, index) => (
+              <li
+                key={index}
+                className="work-list"
+                onClick={() => handleClick(artwork.title)}
+              >
+                {artwork.title}
+              </li>
+            ))}
+          </ul>
         </div>
-        )}
+        <div className="col-md-6">
+          {selectedArtwork && (
+            <div className="work-view">
+              <p className="art-title">{selectedArtwork.title}</p>
+              <div className="image-scroll-container">
+                {selectedArtwork.imageUrls.map((imageUrl, index) => (
+                  <img
+                    key={index}
+                    src={imageUrl}
+                    alt={`${selectedArtwork.title}_${index}`}
+                    style={{ maxWidth: "80%", height: "auto" }}
+                    className="scroll-image"
+                  />
+                ))}
+              </div>
+              <p>{selectedArtwork.description}</p>
+              <p>{selectedArtwork.medium}</p>
+              <p>{selectedArtwork.year}</p>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

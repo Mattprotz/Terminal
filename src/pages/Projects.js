@@ -13,7 +13,7 @@ export default function Projects() {
 
   return (
     <div>
-      <div className="view-header">
+      <div className="col-md-4">
         <Link to="/projects" className="view-title">Projects</Link>
 
         <div className="project-tabs">
