@@ -6,8 +6,8 @@ const artList = [
       year: 2023,
       description: "In this three-dimensional homage to Bangkok's iconic electrical poles, I sought to capture the mesmerizing dance of wires that crisscross the cityscape like a tangled symphony.",
       imageUrls: [ 
-        "/3D_Folder/Sky1.jpg",
-        "/3D_Folder/Sky2.jpg"
+        "3D_Folder/Sky1.jpg",
+        "3D_Folder/Sky2.jpg"
       ]
     },
     {
@@ -16,8 +16,8 @@ const artList = [
       year: 2023,
       description: "As the foundation for an immersive game experience, this 3D project transports players into a kaleidoscopic world where reality blurs and the boundaries of the mind dissolve.",
       imageUrls: [ 
-        "/3D_Folder/Rico1.jpg",
-        "/3D_Folder/Rico2.jpg",
+        "3D_Folder/Rico1.jpg",
+        "3D_Folder/Rico2.jpg",
         "/3D_Folder/Rico3.jpg",
         "/3D_Folder/Rico4.jpg"
       ]

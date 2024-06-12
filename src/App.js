@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Route, Routes, Link, BrowserRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -6,9 +6,9 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import External from "./pages/External";
 import Home from "./pages/Home";
-
 import ThreeD from "./ProjectFolder/ThreeD";
 import Code from "./ProjectFolder/Code";
+
 
 export default function App() {
 
@@ -17,9 +17,9 @@ export default function App() {
       <div>
         <div className="navbar">
           <div className="image-container">
-            <img className="image" alt="skull-art" src="/skull.png" />
+            <img src="skull.png" className="image" alt="skull-art"/>
           </div>
-          <Link to="/home">Home</Link>
+          <Link to="/">Home</Link>
           <Link to="/projects">Projects</Link>
           <Link to="/about">About</Link>
           <Link to="/external">External Links</Link>
