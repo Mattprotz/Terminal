@@ -54,12 +54,15 @@ function ThreeD() {
               <div className="image-scroll-container">
                 {selectedArtwork.imageUrls && selectedArtwork.imageUrls.map((imageUrl, index) => (
                   <img
-                    key={index}
-                    src={imageUrl}
-                    alt={`${selectedArtwork.title}_${index}`}
-                    style={{ maxWidth: "70%", height: "auto" }}
-                    className="scroll-image"
-                  />
+                  src={imageUrl}
+                  key={index}
+                  alt={`${selectedArtwork.title}_${index}`}
+                  className="scroll-image"
+                  onError={(e) => {
+                      console.log(`Error loading image: ${imageUrl}`);
+                      e.target.style.display = 'none'; 
+                  }}
+              />
                 ))}
               </div>
               <p>{selectedArtwork.description}</p>

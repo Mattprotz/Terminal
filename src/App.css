@@ -100,7 +100,7 @@ body{
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
+  height: 220px;
 }
 
 .scroll-image{
