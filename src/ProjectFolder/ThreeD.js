@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import artList from "./Art";
 
@@ -8,7 +8,15 @@ function ThreeD() {
   const handleClick = (title) => {
     const artwork = artList.find((item) => item.title === title);
     setSelectedArtwork(artwork);
+    console.log("Selected Artwork: ", artwork);
   };
+
+  useEffect(() => {
+    if (selectedArtwork) {
+      console.log("Selected Artwork (useEffect): ", selectedArtwork);
+      console.log("Image URLs: ", selectedArtwork.imageUrls);
+    }
+  }, [selectedArtwork]);
 
   return (
     <div className="container">
@@ -44,12 +52,12 @@ function ThreeD() {
             <div className="work-view">
               <p className="art-title">{selectedArtwork.title}</p>
               <div className="image-scroll-container">
-                {selectedArtwork.imageUrls.map((imageUrl, index) => (
+                {selectedArtwork.imageUrls && selectedArtwork.imageUrls.map((imageUrl, index) => (
                   <img
                     key={index}
                     src={imageUrl}
                     alt={`${selectedArtwork.title}_${index}`}
-                    style={{ maxWidth: "80%", height: "auto" }}
+                    style={{ maxWidth: "70%", height: "auto" }}
                     className="scroll-image"
                   />
                 ))}

@@ -31,8 +31,8 @@ const codingProjects = [
         description:"Mobile Networking Application Chatter is a public messaging application. Designed for mobile devices, users can communicate via text, images, even share their location. iOS and Android users can access offline messaging using Firestore database storage.",
         githubRepo:"https://github.com/Mattprotz/Chatter",
         imageUrls:[
-          "Code_Folder/chatter1.png",
-          "Code_Folder/chatter2.png"
+          "/Code_Folder/chatter1.png",
+          "/Code_Folder/chatter2.png"
         ]
       }
 ]
