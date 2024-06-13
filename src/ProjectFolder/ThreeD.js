@@ -13,7 +13,7 @@ function ThreeD() {
 
   useEffect(() => {
     if (selectedArtwork) {
-      console.log("Selected Artwork (useEffect): ", selectedArtwork);
+      console.log("Selected Artwork:", selectedArtwork);
       console.log("Image URLs: ", selectedArtwork.imageUrls);
     }
   }, [selectedArtwork]);
@@ -54,13 +54,12 @@ function ThreeD() {
               <div className="image-scroll-container">
                 {selectedArtwork.imageUrls && selectedArtwork.imageUrls.map((imageUrl, index) => (
                   <img
-                  src={imageUrl}
+                  src={`/3D_Folder/${imageUrl}`}
                   key={index}
                   alt={`${selectedArtwork.title}_${index}`}
                   className="scroll-image"
                   onError={(e) => {
-                      console.log(`Error loading image: ${imageUrl}`);
-                      e.target.style.display = 'none'; 
+                      console.log(`Error loading image: ${imageUrl}`); 
                   }}
               />
                 ))}
