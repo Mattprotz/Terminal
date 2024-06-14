@@ -54,7 +54,7 @@ function ThreeD() {
               <div className="image-scroll-container">
                 {selectedArtwork.imageUrls && selectedArtwork.imageUrls.map((imageUrl, index) => (
                   <img
-                  src={`/3D_Folder/${imageUrl}`}
+                  src={`${process.env.PUBLIC_URL}${imageUrl}`}
                   key={index}
                   alt={`${selectedArtwork.title}_${index}`}
                   className="scroll-image"
