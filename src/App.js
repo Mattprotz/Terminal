@@ -19,10 +19,10 @@ export default function App() {
           <div className="image-container">
             <img src="skull.png" className="image" alt="skull-art"/>
           </div>
-          <Link to="/">Home</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/about">About</Link>
-          <Link to="/external">External Links</Link>
+          <Link to="/">HOME</Link>
+          <Link to="/projects">PROJECTS</Link>
+          <Link to="/about">ABOUT</Link>
+          <Link to="/external">EXTERNAL LINKS</Link>
         </div>
 
         <div className="view-container">

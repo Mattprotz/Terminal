@@ -113,14 +113,14 @@ body{
 }
 
 ::-webkit-scrollbar{
-  width: 3px;
+  width: 10px;
   color: 'green';
-  height: 5px;
+  height: 15px;
 }
 
 ::-webkit-scrollbar-track {
   background: #232323;
-  border-radius: 50px;
+  border-radius: 20px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -203,11 +203,18 @@ body{
 }
 
 .about-title{
-  font-size: 70px;
+  font-size: 40px;
+  padding: 15px;
 }
 
+
 .about-content{
-  font-size: 20px;
+  font-size: 25px;
+  width: 1000px;
+  display: flex;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  height: 300px;
 }
 
 .bold{
@@ -217,6 +224,13 @@ body{
 .art-title{
   font-size: 28px;
   text-decoration: underline;
+}
+
+.external-links{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px
+  
 }
 
 .ex-buttons{

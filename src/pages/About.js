@@ -3,15 +3,16 @@ import React from "react";
 export default function About() {
   return (
     <div className="about-container">
-      <div className="about-title">FullStack Developer / 3D Artist</div>
+      <div className="about-title">Hi, I'm Matthew Proteau</div>
       <div className="about-content">
-        Hi! My name is Matthew Proteau. I am a Developer and 3D artist based in Portland,Oregon USA.<br/>
+        I'm a 3D Artist and Full Stack Developer based in Portland, Oregon. <br/>
+        <br/>
         I recently completed a Bachelor of Arts, majoring in Art and Technology at the University of Oregon <br/>
-        Along with my degree, I have also completed an intensive six-month full stack developer bootcamp- Career Foundry! <br/>
+        Along with my degree, I have also completed an intensive eight month full stack developer bootcamp- Career Foundry! <br/>
         <br/>
-        In addition to my love of technology, I am also interested in nature, animation, music, and animals. <br/>
+        ABOUT ME <br/>
         <br/>
-        One fun fact about me is I own a 130 pound Great Dane named Apple!
+        Besides my passion for technology and design, I love to play games, watch movies and anime, as well as spend time in nature with my one year old 120 pound Great Dane Apple! 
        </div>
     </div>
   );
