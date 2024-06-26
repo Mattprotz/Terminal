@@ -34,7 +34,7 @@ export default function App() {
               <Route path="/external" element={<External />} />
               <Route path="/ProjectFolder/ThreeD" element={<ThreeD />} />
               <Route path="/ProjectFolder/Code" element={<Code />} />
-              <Route path="/" element={<Navigate to="/home" />} />
+              <Route path="/Terminal" element={<Navigate to="/home" />} />
             </Routes>
           </div>
         </div>
