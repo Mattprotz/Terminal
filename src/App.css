@@ -47,6 +47,9 @@ body{
 }
 
 .home-body{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   margin: 0;
   padding: 0;
   width: 90%;
@@ -55,8 +58,7 @@ body{
   position: relative;
   overflow: hidden;
   display: flex;
-  justify-content: center;
-  align-items: center;
+
   font-size: 32px;
 }
 
