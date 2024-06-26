@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes, Link, BrowserRouter } from "react-router-dom";
+import { Route, Routes, Link, BrowserRouter, Navigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import About from "./pages/About";
@@ -19,7 +19,7 @@ export default function App() {
           <div className="image-container">
             <img src="skull.png" className="image" alt="skull-art"/>
           </div>
-          <Link to="/">HOME</Link>
+          <Link to="/home">HOME</Link>
           <Link to="/projects">PROJECTS</Link>
           <Link to="/about">ABOUT</Link>
           <Link to="/external">EXTERNAL LINKS</Link>
@@ -34,6 +34,7 @@ export default function App() {
               <Route path="/external" element={<External />} />
               <Route path="/ProjectFolder/ThreeD" element={<ThreeD />} />
               <Route path="/ProjectFolder/Code" element={<Code />} />
+              <Route path="/" element={<Navigate to="/home" />} />
             </Routes>
           </div>
         </div>

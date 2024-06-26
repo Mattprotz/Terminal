@@ -5,10 +5,17 @@ export default function About() {
     <div className="about-container">
       <div className="about-title">Hi, I'm Matthew Proteau</div>
       <div className="about-content">
-        I'm a 3D Artist and Full Stack Developer based in Portland, Oregon. <br/>
+        I'm a 3D Artist and Full Stack Developer with expertise in creating compelling 
+        and user-friendly designs. With a strong background in both creative and technical 
+        aspects of design, I succeed in transforming complex ideas into intuitive, beautiful creations. <br/>
         <br/>
-        I recently completed a Bachelor of Arts, majoring in Art and Technology at the University of Oregon <br/>
-        Along with my degree, I have also completed an intensive eight month full stack developer bootcamp- Career Foundry! <br/>
+        I recently completed a Bachelor of Arts, majoring in Art and Technology at the University of Oregon. 
+        My time in the College of Design has provided me with a solid foundation in both artistic principles and specialized technical skills.
+        <br/>
+        <br/>
+        Along with my degree, I have also completed an intensive eight-month full stack developer bootcamp at Career Foundry, which has equipped me with 
+        valuable coding skills and a deeper understanding for web and software development. 
+        <br/>
         <br/>
         ABOUT ME <br/>
         <br/>
