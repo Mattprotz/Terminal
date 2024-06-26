@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <div className="about-container">
-      <div className="about-title">Hi, I'm Matthew Proteau</div>
+      <div className="about-title">ABOUT ME</div>
       <div className="about-content">
         I'm a 3D Artist and Full Stack Developer with expertise in creating compelling 
         and user-friendly designs. With a strong background in both creative and technical 
