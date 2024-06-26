@@ -8,9 +8,11 @@ import External from "./pages/External";
 import Home from "./pages/Home";
 import ThreeD from "./ProjectFolder/ThreeD";
 import Code from "./ProjectFolder/Code";
-
+import useClickSound from "./useClickSound";
 
 export default function App() {
+  useClickSound();
+
 
   return (
     <BrowserRouter>
