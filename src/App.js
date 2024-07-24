@@ -19,7 +19,7 @@ export default function App() {
       <div>
         <div className="navbar">
           <div className="image-container">
-            <img src="skull.png" className="image" alt="skull-art"/>
+            <img src="skull.png" className="image" alt="."/>
           </div>
           <Link to="/home">HOME</Link>
           <Link to="/projects">PROJECTS</Link>

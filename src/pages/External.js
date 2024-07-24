@@ -10,7 +10,7 @@ export default function External() {
         <a className="ex-buttons" href="https://www.linkedin.com/in/matthew-proteau-43a146178/"  target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <a className="ex-buttons" href="https://www.youtube.com/channel/UCR9uitYwV-SKTUt6vdwxL2A"  target="_blank" rel="noopener noreferrer">Youtube</a>
         <a className="ex-buttons" href="https://www.linkedin.com/in/matthew-proteau-43a146178/overlay/1718649681636/single-media-viewer/?profileId=ACoAACoF-u4BgnszGhCmULfJ-7w5qSpdRqSYpZU"  target="_blank" rel="noopener noreferrer">3D Art Resume</a>
-        <a className="ex-buttons" href="https://www.linkedin.com/in/matthew-proteau-43a146178/overlay/1718649702516/single-media-viewer/?profileId=ACoAACoF-u4BgnszGhCmULfJ-7w5qSpdRqSYpZU"  target="_blank" rel="noopener noreferrer">Developer Resume</a>
+        <a className="ex-buttons" href="https://www.linkedin.com/in/matthew-proteau-43a146178/overlay/1718649702516/single-media-viewer/?profileId=ACoAACoF-u4BgnszGhCmULfJ-7w5qSpdRqSYpZU"  target="_blank" rel="noopener noreferrer">Dev Resume</a>
       </div>
     </div>
   );

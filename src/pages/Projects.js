@@ -13,9 +13,7 @@ export default function Projects() {
 
   return (
     <div>
-      <div className="col-md-4">
-        <Link to="/projects" className="view-title">Projects</Link>
-
+      <Link to="/projects" className="view-title">Projects</Link>
         <div className="project-tabs">
           <Link to="/ProjectFolder/ThreeD">
             <button className="project-button">3D</button>
@@ -24,11 +22,10 @@ export default function Projects() {
             <button className="project-button">Code</button>
           </Link>
         </div>
-      </div>
-      <div className="project-body">
+      {/* <div className="project-body">
         {selectedProject === "3D" && <ThreeD />}
         {selectedProject === "Code" && <Code />}
-      </div>
+      </div> */}
     </div>
   );
 }

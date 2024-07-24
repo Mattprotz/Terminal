@@ -14,7 +14,7 @@ function Code() {
     <div className="container">
       <div className="row">
         <div className="col-md-4">
-          <div className="view-title">
+          {/* <div className="view-title">
             Projects
             <div className="project-tabs">
               <Link to="/ProjectFolder/ThreeD">
@@ -24,7 +24,11 @@ function Code() {
                 <button className="project-button">Code</button>
               </Link>
             </div>
-          </div>
+          </div> */}
+
+          <Link to="/Projects">
+            <button className="back-button">BACK</button>
+          </Link>
           <ul className="list-view">
             <span className="projectList-header">Coding Projects:</span>
             {codingProjects.map((project, index) => (
