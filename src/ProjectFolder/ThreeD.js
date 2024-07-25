@@ -22,24 +22,8 @@ function ThreeD() {
     <div className="container">
       <div className="row">
         <div className="col-md-4">
-          {/* <div className="view-title">
-            Projects
-            <div className="project-tabs">
-              <Link to="/ProjectFolder/ThreeD">
-                <button className="project-button">3D</button>
-              </Link>
-              <Link to="/ProjectFolder/Code">
-                <button className="project-button">Code</button>
-              </Link>
-            </div>
-          </div> */}
-
-          <Link to="/Projects">
-            <button className="back-button">BACK</button>
-          </Link>
-
           <ul className="list-view">
-            <span className="projectList-header">3D Projects:</span>
+            <span className="view-title">3D Projects</span>
             {artList.map((artwork, index) => (
               <li
                 key={index}
@@ -68,11 +52,18 @@ function ThreeD() {
               />
                 ))}
               </div>
+            <div className="art-details">
               <p>{selectedArtwork.description}</p>
               <p>{selectedArtwork.medium}</p>
               <p>{selectedArtwork.year}</p>
             </div>
+          </div>
           )}
+        </div>
+        <div className="col-md-1">
+          <Link to="/Projects">
+            <button className="back-button">BACK</button>
+          </Link>
         </div>
       </div>
     </div>
