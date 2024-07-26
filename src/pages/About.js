@@ -13,16 +13,17 @@ export default function About() {
           </p>
         </div>
         <div className="about-box">
-          <img style={{maxWidth: '400px'}} src={`${process.env.PUBLIC_URL}/yung.jpg`}/>
+          <img style={{maxWidth: '500px'}} src={`${process.env.PUBLIC_URL}/yung.jpg`}/>
         </div>
         <div className="about-box">
-        <img style={{maxWidth: '200px'}} src={`${process.env.PUBLIC_URL}/dog.jpg`}/>
+        <img style={{maxWidth: '475px'}} src={`${process.env.PUBLIC_URL}/dog.jpg`}/>
         </div>
         <div className="about-box">
           <p>
-            Besides my passion for technology and design, I love listening to my favorite music, playing video games like Fallout and Skyrim, and spending time in nature with my harlequinn Great Dane named Apple!
+            Besides my passion for technology and design, I love listening to my favorite music such as RnB and Jazz. My favorite artists these days are Mereba and Alice Coltrane. I also like to play video games like Fallout and Skyrim, but right now all I play is Star Wars Battlefront II. On the weekend I take my dog, Apple, to the dog park so she can see all her boyfriends. She is a 130 pound harlequinn Great Dane.
           </p>
         </div>
+        <br/>
         <div className="about-box">
           <p>
             I recently completed a Bachelor of Arts, majoring in Art and Technology at the University of Oregon. 
