@@ -16,7 +16,7 @@ export default function About() {
           <img style={{maxWidth: '400px'}} src={`${process.env.PUBLIC_URL}/yung.jpg`}/>
         </div>
         <div className="about-box">
-        <img style={{maxWidth: '300px'}} src={`${process.env.PUBLIC_URL}/dog.jpg`}/>
+        <img style={{maxWidth: '200px'}} src={`${process.env.PUBLIC_URL}/dog.jpg`}/>
         </div>
         <div className="about-box">
           <p>
