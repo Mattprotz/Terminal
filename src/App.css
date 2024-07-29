@@ -228,6 +228,7 @@ body{
   align-items: center;
   overflow-y: auto;
   margin-right: 50px;
+  margin-left: -55px;
   height: 500px;
 }
 
