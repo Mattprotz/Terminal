@@ -13,10 +13,10 @@ export default function About() {
           </p>
         </div>
         <div className="about-image">
-          <img style={{maxWidth: '470px'}} src={`${process.env.PUBLIC_URL}/yung.jpg`}/>
+          <img style={{maxWidth: '550px'}} src={`${process.env.PUBLIC_URL}/yung.jpg`}/>
         </div>
         <div className="about-image">
-        <img style={{maxWidth: '410px'}} src={`${process.env.PUBLIC_URL}/dog.jpg`}/>
+        <img style={{maxWidth: '470px'}} src={`${process.env.PUBLIC_URL}/dog.jpg`}/>
         </div>
         <div className="about-box">
           <p>
