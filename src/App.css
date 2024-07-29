@@ -63,14 +63,14 @@ body{
 .view-container{
   margin: 3px 50px auto;
   padding: 10px;
-  height: 555px;
+  height: 545px;
   border: solid 3px rgb(19, 167, 19);
 }
 
 .view-body{
   margin: 10px -20px;
   padding-left: 75px;
-  height: 525px;
+  height: 500px;
   background-color: black;
 }
 
