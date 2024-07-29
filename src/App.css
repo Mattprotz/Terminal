@@ -229,7 +229,7 @@ body{
   overflow-x: auto;
   margin-right: 50px;
   margin-left: -55px;
-  height: 500px;
+  height: 480px;
 }
 
 .about-title{
@@ -242,14 +242,14 @@ body{
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   color: rgb(19, 167, 19);
-  height: 40vh;
-  width: 785px;
+  height: 45vh;
+  width: 1090px;
 }
 
 .about-box {
   padding: 20px;
   font-size: 20px;
-  line-height: 2;
+  line-height: 2.5;
   max-height: calc(50vh - 40px);
 }
 
