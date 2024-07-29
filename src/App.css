@@ -63,14 +63,14 @@ body{
 .view-container{
   margin: 3px 50px auto;
   padding: 10px;
-  height: 500px;
+  height: 575px;
   border: solid 3px rgb(19, 167, 19);
 }
 
 .view-body{
   margin: 10px -20px;
   padding-left: 75px;
-  height: 445px;
+  height: 525px;
   background-color: black;
 }
 
@@ -228,6 +228,7 @@ body{
   align-items: center;
   overflow-y: auto;
   margin-right: 50px;
+  height: 500px;
 }
 
 .about-title{
@@ -255,8 +256,8 @@ body{
   margin: 0;
 }
 
-.about-pic{
-  max-width: 500px;
+.about-image{
+  margin: 15px;
 }
 
 
