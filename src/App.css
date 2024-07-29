@@ -226,7 +226,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow-y: auto;
+  overflow-x: auto;
   margin-right: 50px;
   margin-left: -55px;
   height: 500px;
@@ -243,12 +243,12 @@ body{
   grid-template-rows: 1fr 1fr;
   color: rgb(19, 167, 19);
   height: 40vh;
-  width: 705px;
+  width: 785px;
 }
 
 .about-box {
   padding: 20px;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 2;
   max-height: calc(50vh - 40px);
 }
