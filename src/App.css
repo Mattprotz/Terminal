@@ -226,7 +226,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow-x: auto;
+  overflow-y: auto;
   height: 480px;
 }
 
@@ -241,7 +241,7 @@ body{
   grid-template-rows: 1fr 1fr;
   color: rgb(19, 167, 19);
   height: 45vh;
-  width: 1090px;
+  
 }
 
 .about-box {
@@ -249,16 +249,12 @@ body{
   font-size: 20px;
   line-height: 2.5;
   max-height: calc(50vh - 40px);
-}
-
-.about-box p {
-  margin: 0;
+  
 }
 
 .about-image{
-  margin: 15px;
+  margin: 5px;
 }
-
 
 .bold{
   font-size: 25px;
