@@ -22,10 +22,7 @@ export default function Projects() {
             <button className="project-button">Code</button>
           </Link>
         </div>
-      {/* <div className="project-body">
-        {selectedProject === "3D" && <ThreeD />}
-        {selectedProject === "Code" && <Code />}
-      </div> */}
+
     </div>
   );
 }

@@ -29,20 +29,20 @@ function Code() {
         </div>
         <div className="col-md-6">
           {selectedProject && (
-            <div className="work-view">
+            <div className="code-view">
               <p className="art-title">{selectedProject.title}</p>
-              <div className="image-scroll-container">
+
+              <p>{selectedProject.description}</p>
+              <div>
                 {selectedProject.imageUrls.map((imageUrl, index) => (
                   <img
                     key={index}
-                    src={imageUrl}
+                    src={`${process.env.PUBLIC_URL}${imageUrl}`}
                     alt={`${selectedProject.title}_${index}`}
-                    style={{ maxWidth: "22%", maxHeight:"10%" }}
-                    className="scroll-image"
+                    className="code-image"
                   />
                 ))}
               </div>
-              <p>{selectedProject.description}</p>
               <a
                 href={selectedProject.githubRepo}
                 target="_blank"

@@ -2,10 +2,10 @@ const codingProjects = [
     {
         title: "MyFlix",
         description: "Clone of the Netflix website, media streaming service. Users can explore a massive online movie and TV database all while having personalized features. Favorite shows, documentaries, and more can be saved to individual lists created by the user.",
-        githubRepo: "https://github.com/Mattprotz/myFlix-client",
-        deployedApp: "https://github.com/Mattprotz/myFlix-client",
+        githubRepo: "https://github.com/Mattprotz/myFlix-Angular-Client",
         imageUrls:[
-
+          "/Code_Folder/flix1.png",
+          "/Code_Folder/flix2.png"
         ]
       },
       {
