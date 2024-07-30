@@ -31,8 +31,7 @@ function Code() {
           {selectedProject && (
             <div className="code-view">
               <p className="art-title">{selectedProject.title}</p>
-
-              <p>{selectedProject.description}</p>
+              <p className="code-desc">{selectedProject.description}</p>
               <div>
                 {selectedProject.imageUrls.map((imageUrl, index) => (
                   <img
@@ -43,6 +42,8 @@ function Code() {
                   />
                 ))}
               </div>
+              <p className="code-desc">{selectedProject.features}</p>
+
               <a
                 href={selectedProject.githubRepo}
                 target="_blank"

@@ -1,7 +1,11 @@
 const codingProjects = [
     {
         title: "MyFlix",
-        description: "Clone of the Netflix website, media streaming service. Users can explore a massive online movie and TV database all while having personalized features. Favorite shows, documentaries, and more can be saved to individual lists created by the user.",
+        description: "This React application emulates the core features and user experience of Netflix, a popular streaming service. The project leverages modern web development practices and tools to deliver a high-performance, scalable, and responsive streaming platform..",
+        features:[
+          "User Authentication- Utitlizes Firebase Authentication for secure registration and login",
+
+        ],
         githubRepo: "https://github.com/Mattprotz/myFlix-Angular-Client",
         imageUrls:[
           "/Code_Folder/flix1.png",

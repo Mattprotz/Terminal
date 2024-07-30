@@ -135,17 +135,21 @@ body{
   display: flex;
   flex-direction: column;
   width: 110%;
-  max-height: 300px; 
+  max-height: 400px; 
   overflow-y: auto;
-  padding: 20px;
+  margin-top: 35px;
 }
 
 .code-image{
-  width: 200px;
+  width: 300px;
   object-fit: cover;
   margin: 5px;
   border-radius: 2px;
   box-shadow: 0 2px 4px #00ff08;
+}
+
+.code-desc{
+  font-size: 22px;
 }
 
 .scroll-image{
@@ -220,11 +224,6 @@ body{
 
 .code-title{
   font-size: 32px;
-}
-
-.code-view{
-  margin-top: 100px;
-  margin-left: 15px;
 }
 
 .button-link{
